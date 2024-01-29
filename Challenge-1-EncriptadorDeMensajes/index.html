@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge - 1 - Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuerys.css">
+</head>
+<body>
+    <div class="barraNav">
+        <img src="img/logo/Logo.svg" alt="logo-alura">
+
+    </div>
+<div class="container">
+    <div class="entradaContainer">
+        <div class="entrada">
+        <textarea type="text" name="entrada" id="entrada_usuario" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+         </div>
+         <div class="infomationContainer">
+            <div class="information">
+            <img src="img/bi_exclamation-circle-fill.svg" alt="simbolo_de_exclamacion">
+            <h5>Solo letras minúsculas y sin acentos</h5>
+           </div>
+         </div>
+        <div class="buttonContainer">
+        <button id="encriptar" onclick="encriptar();">Encriptar</button>
+        <button id="desencriptar" onclick="desencriptar();">Desencriptar</button>
+    </div>
+    </div>
+    <div class="resultadoContainer">
+        <div class="sinmensajeContainer" id="sinmensajeContainer">
+            <img src="img/Muñeco.svg" alt="">
+            <h2>Ningún mensaje fue encontrado</h2>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+
+        <div class="conMensajeContainer" id="conMensajeContainer">
+        <p id="resultado"></p>
+        <div class="buttonContainer">
+            <button id="copiarTexto" onclick="copiarResultadoAlPortapapeles();">Copiar texto</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer">
+      <p>Desarrollado por Julio Cesar Poot Hernandez</p>
+    </div>
+</footer>
+    <script src="encriptacion.js"></script>
+</body>
+</html>

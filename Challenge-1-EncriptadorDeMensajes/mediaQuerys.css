@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+/* Media Query para tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablet */
+    .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .entradaContainer{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 100px;
+
+    }
+
+    .entrada{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    #entrada_usuario{
+        font-size: 4vw;
+    }
+    #entrada_usuario::placeholder{
+        font-family: 'Inter', sans-serif;
+        color: #0A3871;
+        font-size: 4vw;
+    }
+
+    .infomationContainer{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .resultadoContainer{
+        width: 90%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    #resultado{
+        margin-bottom: 50px;
+    }
+
+    .sinmensajeContainer{
+        height: auto;
+    }
+    .sinmensajeContainer img{
+        display: none;
+    }
+    #encriptar{
+        font-size: 2vw;
+
+    }
+
+    #desencriptar{
+        font-size: 2vw;
+    }
+    #copiarTexto{
+    font-size: 2vw;
+    margin-left: 0px;
+
+}
+
+}
+  
+  /* Media Query para celulares */
+  @media only screen and (max-width: 767px) {
+    /* Estilos para celulares */
+
+    .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .entradaContainer{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 100px;
+
+    }
+    .entrada{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #entrada_usuario{
+        width: 100%;
+        height: 500px;
+        font-size: 7vw;
+    }
+
+    #entrada_usuario::placeholder{
+        font-family: 'Inter', sans-serif;
+        color: #0A3871;
+        font-size: 7vw;
+    }
+
+    .infomationContainer{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .buttonContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #encriptar{
+        margin-bottom: 20px;
+        font-size: 3vw;
+
+
+    }
+    #desencriptar{
+        margin-left: 0;
+        font-size: 3vw;
+
+    }
+
+    .resultadoContainer{
+        width: 90%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    .sinmensajeContainer img{
+        display: none;
+    }
+    #copiarTexto{
+        font-size: 3vw;
+        margin-left: 0px;
+
+    }
+
+    .buttonContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  }
